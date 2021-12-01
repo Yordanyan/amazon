@@ -16,7 +16,7 @@ import Orders from "./Orders";
 function App() {
   
 const promise = loadStripe(
-  'pk_test_51Jvy7OCTquhTlKLOMJ20pxdEpQevkIJPOWH5GgDj6ga3wk7rCJxwSv4RkjbEEbvrXn0MxTnuk1rz5DHA2dB2IOho00iitD4V3s');
+  '(//enter your Stripe Test Mode API's)');
 
   const [{},dispatch] = useStateValue();
   useEffect(() =>{
